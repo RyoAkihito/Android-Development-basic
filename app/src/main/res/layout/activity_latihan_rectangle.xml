@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".latihan_rectangle">
+
+    <ImageButton
+        android:id="@+id/tbmenu"
+
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/baseline_sort_24"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/gambar"
+
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="-2dp"
+
+        android:background="@drawable/latihan_rectangle" />
+
+    <ImageView
+        android:id="@+id/displaypct"
+
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bgst"
+
+
+        />
+
+    <TextView
+        android:id="@+id/judul1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sale"
+        android:layout_below="@id/tbmenu"
+        android:textSize="45dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="275dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/discount"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10%"
+        android:textSize="40dp"
+        android:layout_below="@id/judul1"
+        android:layout_marginStart="20dp"
+        android:textColor="#1890D1"
+        android:textStyle="bold"
+        android:layout_marginTop="-10dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/limit"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*LImited TIme"
+        android:layout_below="@id/discount"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="---"
+        android:letterSpacing="0.5"
+        android:layout_below="@id/limit"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+
+        />
+
+
+    <View
+        android:id="@+id/line"
+
+        android:layout_width="wrap_content"
+        android:layout_height="1sp"
+        android:background="@color/black"
+        android:layout_below="@id/limit"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/popular"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Populer"
+        android:layout_below="@id/line"
+        android:textSize="24sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+
+        android:textColor="#1890D1"
+
+        />
+
+    <TextView
+        android:id="@+id/newariv"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="New Arrival"
+        android:textStyle="bold"
+
+        android:textSize="24sp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brand"
+        android:layout_below="@id/line"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:textStyle="bold"
+
+        android:layout_alignParentEnd="true"
+
+        />
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/testt"
+
+
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:cardCornerRadius="15dp"
+        android:layout_below="@id/popular"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:elevation="0dp"
+        >
+
+
+        <ImageView
+            android:id="@+id/pct2"
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/pdt1"
+            android:layout_below="@id/popular"
+            android:background="@drawable/images"
+            android:scaleType="centerCrop"
+
+            />
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/card2"
+
+        android:layout_below="@id/testt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:elevation="0dp"
+        app:cardCornerRadius="15dp"
+
+
+
+        >
+
+        <ImageView
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/pdt1"
+            android:background="@drawable/download"
+            android:scaleType="centerCrop"
+            android:layout_below="@id/popular"
+
+            />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/produk1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Evangelion Eva 1 "
+        android:layout_below="@+id/newariv"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:textColor="#111111"
+
+        />
+    <TextView
+        android:id="@+id/harga1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$35"
+        android:layout_below="@+id/tempat1"
+        android:layout_toRightOf="@id/testt"
+        android:textSize="18dp"
+        android:layout_marginStart="35dp"
+        android:textColor="#1890D1"
+
+        />
+    <TextView
+        android:id="@+id/tempat1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New York"
+        android:layout_below="@id/produk1"
+        android:layout_marginStart="35dp"
+        android:layout_toRightOf="@id/testt"
+        />
+
+
+
+    <TextView
+        android:id="@+id/judullagi"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zero Two PVC"
+        android:layout_below="@+id/harga1"
+        android:layout_toRightOf="@id/card2"
+        android:textSize="18dp"
+        android:layout_marginStart="35dp"
+        android:textColor="#111111"
+        android:layout_marginTop="20dp"
+
+        />
+    <TextView
+        android:id="@+id/harga3"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$35"
+        android:layout_below="@+id/tempat2"
+        android:layout_toRightOf="@id/card2"
+        android:textSize="18dp"
+        android:layout_marginStart="35dp"
+        android:textColor="#1890D1"
+
+        />
+    <TextView
+        android:id="@+id/tempat2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="san Francisco"
+        android:layout_below="@id/judullagi"
+        android:layout_marginStart="35dp"
+        android:layout_toRightOf="@id/testt"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

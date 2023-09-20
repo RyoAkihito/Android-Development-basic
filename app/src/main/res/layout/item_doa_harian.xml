@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="30dp"
+        android:elevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rljuduldoa"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivgambardoa"
+
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+
+                    android:src="@drawable/doaharian"/>
+
+                <TextView
+                    android:id="@+id/ivjuduldoa"
+
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="15dp"
+                    android:text="Doa Bangun Tidur" />
+
+                <ImageButton
+                    android:id="@+id/ibcollapse"
+
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/baseline_arrow_forward_ios_24"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@id/ivjuduldoa"
+                    android:layout_marginStart="40dp"
+                    />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#C1C0C0"
+                />
+            <RelativeLayout
+                android:id="@+id/rlisidoa"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:visibility="gone"
+                >
+                <TextView
+                    android:id="@+id/tvdoaarab"
+
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="بِسْمِكَ اللّٰهُمَّ اَحْيَا وَاَمُوْتُ"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:id="@+id/tvdoalatin"
+
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvdoaarab"
+
+                    android:layout_marginStart="10dp"
+
+                    android:text="Latin : \n   Bismikallohumma ahya wa amuutu"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_marginTop="20dp"
+                    />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

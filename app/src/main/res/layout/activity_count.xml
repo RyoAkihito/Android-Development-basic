@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CountActivity"
+
+
+    android:orientation="vertical"
+    android:gravity="center"
+
+    >
+
+    <TextView
+        android:id="@+id/tvNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="center"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context=".CountActivity"
+
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        android:layout_margin="20dp"
+
+
+
+        >
+        <Button
+            android:id="@+id/btnreset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#D32F2F"
+            android:gravity="center"
+
+            android:text="Reset" />
+
+        <Button
+            android:id="@+id/btnCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2A86E1"
+            android:gravity="center"
+            android:text="Count" />
+
+
+
+        <Button
+            android:id="@+id/btnminus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#512DA8"
+            android:gravity="center"
+            android:text="Minus" />
+    </LinearLayout>
+
+</LinearLayout>
+

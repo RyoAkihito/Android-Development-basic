@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grqaad"
+
+    tools:context=".SplashScreen">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/logodoa"
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/animation" />
+
+    <TextView
+        android:id="@+id/jdl"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doa Dan Dzikir App"
+        android:layout_below="@id/logodoa"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#EFEDED"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-black"/>
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logopeasat"
+        android:layout_below="@id/jdl"
+        android:layout_marginTop="90dp"
+        android:layout_centerInParent="true"/>
+
+
+
+
+</RelativeLayout>

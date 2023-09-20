@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jual">
+
+    <ImageButton
+        android:id="@+id/tbl"
+
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/baseline_arrow_back_24"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/saber"
+        android:scaleType="centerCrop" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/gambar1"
+        android:background="#817B7B"
+
+        />
+
+    <TextView
+        android:id="@+id/judul"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fate Saber \nArtoria PVC Action Figure"
+        android:layout_below="@id/gambar1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/harga"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$ 25.43"
+        android:layout_below="@id/judul"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="25dp"
+        android:textColor="#474A4C"
+        android:textStyle="bold"
+        />
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/baseline_favorite_24"
+        android:layout_below="@id/gambar1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="40dp"
+
+        />
+
+    <ImageButton
+        android:id="@+id/b1"
+
+        android:layout_width="25dp"
+        android:layout_height="25sp"
+        android:layout_below="@id/harga"
+        android:background="@drawable/star"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageButton
+        android:id="@+id/b2"
+
+        android:layout_width="25dp"
+        android:layout_height="25sp"
+        android:layout_below="@id/harga"
+        android:background="@drawable/star"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/b1"
+        />
+
+    <ImageButton
+        android:id="@+id/b3"
+
+        android:layout_width="25dp"
+        android:layout_height="25sp"
+        android:layout_below="@id/harga"
+        android:background="@drawable/star"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/b2"
+        />
+
+    <ImageButton
+        android:id="@+id/b4"
+
+        android:layout_width="25dp"
+        android:layout_height="25sp"
+        android:layout_below="@id/harga"
+        android:background="@drawable/star"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/b3"
+        />
+
+    <ImageButton
+        android:id="@+id/b5"
+
+        android:layout_width="25dp"
+        android:layout_height="25sp"
+        android:layout_below="@id/harga"
+        android:background="@drawable/star"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/b4"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5.0"
+        android:layout_below="@id/harga"
+        android:layout_toRightOf="@id/b5"
+        android:layout_marginTop="12dp"
+        android:textSize="18dp"
+        android:layout_marginStart="10dp"
+        />
+    
+    <TextView
+        android:id="@+id/brand"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brand"
+        android:layout_below="@id/b1"
+        android:layout_marginStart="25dp"
+        android:textSize="16dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/tipe"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipe"
+        android:layout_below="@id/brand"
+        android:layout_marginStart="25dp"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/dimension"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dimension"
+        android:layout_below="@id/tipe"
+        android:layout_marginStart="25dp"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/branddetail"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Good Smile Company"
+        android:layout_below="@id/b1"
+        android:layout_marginStart="60dp"
+        android:layout_toRightOf="@id/brand"
+        android:textSize="16dp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/tipedetail"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Action Figure"
+        android:layout_below="@id/brand"
+        android:layout_marginStart="75dp"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/tipe"
+        android:textStyle="bold"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/6, 31 cm x 8.3 cm"
+        android:layout_below="@id/tipe"
+        android:layout_marginStart="25dp"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/dimension"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/black"
+
+        android:text="Buy"
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

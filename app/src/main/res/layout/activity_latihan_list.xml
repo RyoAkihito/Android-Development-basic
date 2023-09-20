@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Latihan_List_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Bahasa pemrograman \nyang trand 2023"
+        android:layout_marginStart="10dp"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lvnama"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="20dp"
+
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/layouts"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/logo"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+
+            android:src="@drawable/golang"
+            />
+        <TextView
+            android:id="@+id/bahasa"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go lang"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"
+            />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

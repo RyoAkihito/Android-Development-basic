@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Latihan45">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:background="@drawable/bag"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/doa"
+        android:layout_marginTop="-90dp"
+        android:layout_toRightOf="@id/judul21"
+        />
+
+
+    <TextView
+        android:id="@+id/judul21"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do'a dan \n Dzikir \n App"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/white"
+        android:layout_marginStart="55dp"
+        />
+
+    <TextView
+        android:id="@+id/sub"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilihan do'a dan \n Dzikir"
+        android:textSize="25dp"
+        android:textColor="#2E3360"
+        android:layout_below="@id/judul21"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#db8a25"
+        android:layout_toRightOf="@id/sub"
+        android:layout_below="@+id/judul21"
+        android:layout_marginTop="110dp"
+        android:text="Selengkapnya ->"
+        android:layout_marginStart="30dp"
+        android:textSize="10sp"
+        />
+
+<!--    <ImageView-->
+<!--        android:background="@drawable/baseline_arrow_forward_24"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        to-->
+<!--        />-->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listdzikir"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"/>
+    </ScrollView>
+
+
+
+</RelativeLayout>

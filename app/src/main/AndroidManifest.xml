@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyProjekAndriod"
+        tools:targetApi="31">
+        <activity
+            android:name=".doaHarian"
+            android:exported="false">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".latihanvisibility"
+            android:exported="false">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Latihan45"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListprogramActivity"
+            android:exported="true" />
+        <activity
+            android:name=".malas"
+            android:exported="false" />
+        <activity
+            android:name=".Latihan_List_Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".belajar_list"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Belajar_Scroll"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_card_swiss"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_card"
+            android:exported="true" />
+        <activity
+            android:name=".latihan_rectangle"
+            android:exported="true" />
+        <activity
+            android:name=".Jual"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".relativeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TrvavelerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TravelActivity"
+            android:exported="true" />
+        <activity
+            android:name=".biodata"
+            android:exported="false" />
+        <activity
+            android:name=".detailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Bukakamera"
+            android:exported="true" />
+        <activity
+            android:name=".kalkulator"
+            android:exported="true" />
+        <activity
+            android:name=".Latihan"
+            android:exported="false" />
+        <activity
+            android:name=".CountActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
